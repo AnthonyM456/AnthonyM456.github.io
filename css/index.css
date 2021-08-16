@@ -1,0 +1,19 @@
+.topnav {
+  background-color: #0b28ce;
+}
+
+.topnav a {
+  float: right;
+  padding-left: 1%;
+  padding-right: 1%;
+  line-height: 4em;
+}
+
+#hyperlink-nav {
+  color: black;
+  transition: color 0.25s;
+}
+
+#hyperlink-nav:hover {
+  color: white;
+}
