@@ -1,8 +1,19 @@
-.topnav {
-  background-color: #0b28ce;
+body {
+  font-family: "Open Sans";
+  margin: 0%;
 }
 
-.topnav a {
+.navbar {
+  background-color: #ff9e9e;
+  border-bottom-color: #d9d9d9;
+  border-bottom-style: solid;
+  border-bottom-width: 0.1em;
+  height: 4em;
+  width: 100%;
+  top: 0;
+}
+
+.navbar a {
   float: right;
   padding-left: 1%;
   padding-right: 1%;
@@ -11,7 +22,7 @@
 
 #hyperlink-nav {
   color: black;
-  transition: color 0.25s;
+  transition: color 0.5s;
 }
 
 #hyperlink-nav:hover {
